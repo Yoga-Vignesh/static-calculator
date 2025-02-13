@@ -1,0 +1,39 @@
+body{
+        background-color: black;
+      }
+      .dp{
+        color: aliceblue;
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .num{
+        background-color: rgb(133, 122, 122);
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 25px;
+        font-size: large;
+        font-weight: bold;
+        margin-right: 8px;
+        cursor: pointer;
+      }
+      .num1{
+        background-color: rgb(133, 122, 122);
+        color: white;
+        border: none;
+        height: 45px;        
+        border-radius: 60px;
+        margin-right: 8px;
+        cursor: pointer;
+      }
+      .opr{
+        background-color: rgb(235, 142, 35);
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 25px;
+        font-size: large;
+        font-weight: bold;
+        cursor: pointer;
+      }

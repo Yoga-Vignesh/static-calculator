@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+  </head>
+  <body>
+    <p class="disp dp"></p>
+    <button
+      onclick="
+    updateCalc('1');
+    "
+    class="num";
+    >
+      1
+    </button>
+    <button
+      onclick="
+      updateCalc('2');
+    "
+    class="num"
+    >
+      2
+    </button>
+
+    <button
+      onclick="
+    updateCalc('3');
+    "
+    class="num"
+    >
+      3
+    </button>
+    <button
+      onclick="
+    updateCalc(' + ');
+    "
+    class="opr"
+    >
+      +
+    </button>
+
+    <p>
+      <button
+        onclick="
+    updateCalc('4');
+    "
+    class="num"
+      >
+        4
+      </button>
+
+      <button
+        onclick="
+      updateCalc('5');
+      "
+      class="num"
+      >
+        5
+      </button>
+
+      <button
+        onclick="
+      updateCalc('6');
+      "
+      class="num"
+      >
+        6
+      </button>
+      <button
+        onclick="
+        updateCalc(' - ');
+    "
+    class="opr"
+      >
+        -
+      </button>
+    </p>
+
+    <p>
+      <button
+        onclick="
+        updateCalc('7');
+        "
+        class="num"
+      >
+        7
+      </button>
+
+      <button
+        onclick="
+        updateCalc('8');
+        "
+        class="num"
+      >
+        8
+      </button>
+
+      <button
+        onclick="
+        updateCalc('9');
+        "
+        class="num"
+      >
+        9
+      </button>
+
+      <button
+        onclick="
+    updateCalc(' * ');
+    "
+    class="opr"
+      >
+        *
+      </button>
+    </p>
+
+    <p>
+      <button
+        onclick="
+      updateCalc(' . ');
+      "
+      class="num"
+      >
+        .
+      </button>
+
+      <button
+        onclick="
+      updateCalc('0');
+      "
+      class="num"
+      >
+        0
+      </button>
+
+      <button
+        onclick="
+      updateCalc(' / ');
+      "
+      class="num"
+      >
+        /
+      </button>
+
+      <button
+        onclick="
+    calc = eval(calc);
+    dispCalc();
+    localStorage.setItem('calc',calc);
+    "
+    class="opr"
+      >
+        =
+      </button>
+    </p>
+    <button
+      onclick="
+    calc = 0;
+    localStorage.removeItem(calc);
+    dispCalc();
+    "
+    class="num1"
+    >
+      Clear
+    </button>
+
+
+    <script src="calc.js">    
+    </script>
+  </body>
+</html>
